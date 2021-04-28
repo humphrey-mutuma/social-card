@@ -1,0 +1,10 @@
+.link{
+  width: 100%;
+  min-height: 10vh;
+  border-bottom: 1px solid grey;
+
+}
+.link h4,p,a {
+ margin: 1%; 
+ text-decoration: none;
+}

@@ -12,12 +12,12 @@ import logo from "../../../images/logo192.png";
           </div>
         </section>
         <section className="text">
-          <h1 className>Learning React? Start Small</h1>
+          <h1>Learning React? Start Small</h1>
         </section>
         <section className="name">
           <div>
             <span>Humphrey Mutuma </span>
-            <span className="image"> <img width='20px' src={logo} alt=""/></span>
+            <span className="image"> <img width='30px' src={logo} alt=""/></span>
           </div>
         </section>
       </div>

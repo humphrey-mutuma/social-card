@@ -16,7 +16,7 @@ class Header extends Component {
       <div >
         <h4>The Practical Dev <span>@ThePracticalDev</span> Sep 10 </h4>
         <p>Learning React? Start Small.</p>
-        <p>author: @dceddia</p>
+        <p><a href="#">author: @humphreymutuma7</a></p>
       </div>
     )
   }
