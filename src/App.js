@@ -1,5 +1,5 @@
 import './App.css';
-import Avator from './components/AvatorComponent/Avotar'
+import Avator from './components/AvatorComponent/Avator'
 import SocialCard from './components/SocialCardComponent/SocialCard'
 
 function App() {

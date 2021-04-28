@@ -1,9 +1,19 @@
 .Card{
   width: 100%;
 }
+.Card aside,article {
+  float: left;
+  min-height: 80vh;
+  border:  1px solid red;
+}
 .Card .AvatorComponent{
+  box-sizing: border-box;
   width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Card .SocialCardComponent{
   width: 90%;
+  box-sizing: border-box;
 }
