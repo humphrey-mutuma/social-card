@@ -2,6 +2,7 @@
   background-color: rgba(255, 166, 0, 0.719);
   min-height: 40vh;
   border-radius: 10px;
+  margin-right: 1%;
 }
 .Social section:first-child {
   border: 1px solid rgba(255, 255, 0, 0.096)  ;

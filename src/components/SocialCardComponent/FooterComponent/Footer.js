@@ -26,13 +26,12 @@ export default function LabelBottomNavigation() {
   
   return (
     <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
+      <BottomNavigationAction label="Favorites" value="favorites" icon={<FavoriteIcon />} />
       <BottomNavigationAction label="Like" value="like" icon={<ThumbUpIcon />} />
       <BottomNavigationAction label="Dislike" value="dislike" icon={<ThumbDownIcon />} />
       <BottomNavigationAction label="Recents" value="recents" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="Favorites" value="favorites" icon={<FavoriteIcon />} />
       <BottomNavigationAction label="Nearby" value="nearby" icon={<LocationOnIcon />} />
-      <BottomNavigationAction label="Folder" value="folder" icon={<FolderIcon />} />
-      <BottomNavigationAction label="ChatIcon" value="ChatIcon" icon={<ChatIcon />} />
+      <BottomNavigationAction label="Chat" value="ChatIcon" icon={<ChatIcon />} />
     </BottomNavigation>
   );
 }

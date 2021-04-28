@@ -4,7 +4,6 @@
 .Card aside,article {
   float: left;
   min-height: 80vh;
-  border:  1px solid red;
 }
 .Card .AvatorComponent{
   box-sizing: border-box;
